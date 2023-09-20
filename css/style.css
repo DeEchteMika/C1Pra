@@ -1,0 +1,153 @@
+  h1 {
+    font-size: 24px;
+    /* Verklein de kopgrootte voor kleinere schermen */
+  }
+
+  .container {
+    max-width: 90%;
+    /* Maak de container wat smaller op kleinere schermen */
+  }
+
+  .btn {
+    padding: 8px 16px;
+    /* Maak de knoppen kleiner voor kleinere schermen */
+  }
+
+  .image {
+    height: 80px;
+    width: 90px;
+    /* Pas de afbeeldingsgrootte aan voor kleinere schermen */
+  }
+
+  /* Eventuele andere aanpassingen die je nodig hebt voor kleinere schermen */
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2ADD5D;
+    color: black;
+  }
+
+  header {
+    background-color: #014C35;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  section {
+    padding: 20px;
+    text-align: center;
+    border: #014C35 solid 5px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+
+  .vakken {
+    background-color: #fff;
+    padding: 20px;
+  
+    padding-left: 3cm;
+    padding-right: 3cm;
+    border-radius: 15px;
+    text-align: left;
+    margin-right: 10px;
+  }
+
+  .roostertext {
+    text-align: left;
+    padding-left: 17cm;
+  }
+
+  .box {
+    display: flex;
+  }
+
+
+
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .btn:hover {
+    background-color: #555;
+  }
+
+  footer {
+    background-color: #2ADD5D;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .image {
+    height: 100px;
+    width: 120px;
+    margin: 15px;
+  }
+
+
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 1 / 4 / 2 / 5; }
+    .div5 { grid-area: 2 / 1 / 3 / 2; }
+    .div6 { grid-area: 2 / 2 / 3 / 3; }
+    .div7 { grid-area: 2 / 3 / 3 / 4; }
+    .div8 { grid-area: 2 / 4 / 3 / 5; }
+    .div9 { grid-area: 3 / 2 / 4 / 3; }
+    .div10 { grid-area: 3 / 3 / 4 / 4; }
+
+
+.fotos{
+    background-color: #014C35;
+    border-radius: 15px;
+    color: #fff;
+    padding: 20px;
+    padding-left: 395px; padding-right: 395px;
+
+}
+
+@media (max-width: 768px) {
+
+  .container {
+      text-align: center;
+      padding: 15px;
+  }
+
+  .parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
